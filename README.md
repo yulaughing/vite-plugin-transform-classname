@@ -1,0 +1,1 @@
+Used to resolve that css modules loaded in vite react projects must write style references in the tag attribute className

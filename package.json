@@ -1,0 +1,30 @@
+{
+  "name": "vite-plugin-transform-class-name",
+  "version": "2.1.0",
+  "description": "Used to resolve that css modules loaded in vite react projects must write style references in the tag attribute className",
+  "type": "module",
+  "main": "index.cjs",
+  "types": "index.d.ts",
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.cjs",
+      "import": "./index.mjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vite-plugin"
+  ],
+  "author": "zhaomanman",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.23.6",
+    "@babel/parser": "^7.24.0",
+    "@babel/traverse": "^7.24.0",
+    "@babel/types": "^7.24.0"
+  }
+}
